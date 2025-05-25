@@ -1,0 +1,15 @@
+[project]
+name = "q_glb_material_modifier"
+description = "A ComfyUI custom node for enhancing GLB 3D models generated with Hunyuan 3D 2.0. This module helps solve the common 'plastic look' problem by adding realistic materials and smart emissive elements."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["pygltflib>=1.16.1", "opencv-python>=4.8.0", "pillow>=10.0.0", "numpy>=1.24.0"]
+
+[project.urls]
+Repository = "https://github.com/angree/ComfyUI-Q_GLB_Material_Modifier"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Q_GLB_Material_Modifier"
+Icon = ""
