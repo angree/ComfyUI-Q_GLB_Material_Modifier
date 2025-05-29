@@ -183,7 +183,7 @@ Efficient workflow for generating multiple material variants:
 
 ### Performance Optimization
 
-- **Normal Scaling**: Use "2x" or "4x" for large textures to improve processing speed
+- **Normal Scaling**: Use "2x" or "4x" for large textures to reduce file size
 - **Render Toggle**: Disable rendering during parameter testing
 - **Compression**: Enable normal_compression for smaller file sizes
 - **Batch Processing**: Generate multiple variants efficiently in single run
