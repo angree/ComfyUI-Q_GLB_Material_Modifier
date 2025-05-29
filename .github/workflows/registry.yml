@@ -1,4 +1,4 @@
-name: Publish to Comfy registry
+name: publish-to-comfy-registry
  
 on:
   workflow_dispatch:
