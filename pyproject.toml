@@ -2,7 +2,7 @@
 name = "comfyui-q-glb-material-modifier"  # Unique identifier
 description = "Enhance GLB 3D models with realistic materials, smart emissive elements, and procedural normal maps"
 version = "1.0.0"  # Must follow semantic versioning
-license = { file = "LICENSE" }
+license = { file = "LICENSE.txt" }
 dependencies = [
     "pygltflib>=1.16.1",
     "opencv-python>=4.8.0", 
