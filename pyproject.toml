@@ -1,0 +1,18 @@
+[project]
+name = "comfyui-q-glb-material-modifier"  # Unique identifier
+description = "Enhance GLB 3D models with realistic materials, smart emissive elements, and procedural normal maps"
+version = "1.0.0"  # Must follow semantic versioning
+license = { file = "LICENSE" }
+dependencies = [
+    "pygltflib>=1.16.1",
+    "opencv-python>=4.8.0", 
+    "pillow>=10.0.0",
+    "numpy>=1.24.0"
+]
+
+[project.urls]
+Repository = "https://github.com/angree/ComfyUI-Q_GLB_Material_Modifier"
+
+[tool.comfy]
+PublisherId = "angree"  # From registry website
+DisplayName = "Q GLB Material Modifier"
